@@ -1,0 +1,91 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://AlexHailey.github.io/IIIFtest/manifests/botany_edit1.json",
+  "@type" : "sc:Manifest",
+  "label" : "Exploring mss links",
+  "metadata" : [ {
+    "label" : "Date",
+    "value" : "c1700"
+  }, {
+    "label" : "Reference",
+    "value" : "Add MS 5292"
+  } ],
+  "description" : [ {
+    "@value" : "Chinese botanical illustrations by Chinese artists, commissioned in Amoy [Xiamen] by James Cuninghame on instruction of James Petiver, and later presented to Hans Sloane, now found in Add MS 5292. Annotations provide links to Cuninghame's original list of the works, which were arranged in a different order.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Provided by the British Library",
+  "sequences" : [ {
+    "@id" : "http://a4758c1c-9e17-4ea7-b1b2-6b8a612d0e11",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://eb11e538-e453-4e0b-8f8e-58aa84875480",
+      "@type" : "sc:Canvas",
+      "label" : "folio 2r",
+      "height" : 10037,
+      "width" : 6371,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1375c755-3130-49f5-8582-0183df759199",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101225216.0x00000b/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101225216.0x00000b",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 10037,
+          "width" : 6371
+        },
+        "on" : "http://eb11e538-e453-4e0b-8f8e-58aa84875480"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://eef460ef-b14f-4833-b74c-6ac61938ef91",
+      "@type" : "sc:Canvas",
+      "label" : "folio 31r",
+      "height" : 9894,
+      "width" : 6216,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c5b7b45e-f1ef-4d72-8867-6a9b95c46308",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101225216.0x000049/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101225216.0x000049",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 9894,
+          "width" : 6216
+        },
+        "on" : "http://eef460ef-b14f-4833-b74c-6ac61938ef91"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
