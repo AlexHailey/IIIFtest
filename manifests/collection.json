@@ -1,0 +1,13 @@
+{
+  "id" : "https://AlexHailey.github.io/IIIFtest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in AlexHailey/IIIFtest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://AlexHailey.github.io/IIIFtest/manifests/botany_edit1.json",
+    "label" : "Exploring mss links"
+  } ]
+}
